@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RST2-Programiranje-Vaje_25-26", "RST2-Programiranje-Vaje_25-26\RST2-Programiranje-Vaje_25-26.csproj", "{C50AC194-1D94-4D8F-8159-A658796C98C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{650F80DC-6A4F-4587-B290-E5B4461F1598}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C50AC194-1D94-4D8F-8159-A658796C98C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C50AC194-1D94-4D8F-8159-A658796C98C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C50AC194-1D94-4D8F-8159-A658796C98C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650F80DC-6A4F-4587-B290-E5B4461F1598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650F80DC-6A4F-4587-B290-E5B4461F1598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650F80DC-6A4F-4587-B290-E5B4461F1598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650F80DC-6A4F-4587-B290-E5B4461F1598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

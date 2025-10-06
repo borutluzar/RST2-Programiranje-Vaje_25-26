@@ -6,7 +6,6 @@
         Naloga122 = 2,
         Naloga123 = 3,
         Naloga131 = 4,
-        Naloga141 = 5,
     }
 
     /// <summary>
