@@ -56,12 +56,13 @@
                         {
                             case Vaje_02_Naloge.Naloga132:
                                 {
-                                    List<double> seznam = new List<double>() { 1, 2, 3, 4, 5, 6 };
-                                    // Z zanko for
-                                    var noviSeznamFor = Vaje_02.Naloga132_For(seznam);
-
                                     // Z zanko foreach
-                                    var noviSeznamForeach = Vaje_02.Naloga132_Foreach(seznam);
+                                    List<double> seznam1 = new List<double>() { 1, 2, 3, 4, 5, 6 };                                                                       
+                                    var noviSeznamForeach = Vaje_02.Naloga132_Foreach(seznam1);
+
+                                    // Z zanko for
+                                    List<double> seznam2 = new List<double>() { 1, 2, 3, 4, 5, 6 };                                    
+                                    var noviSeznamFor = Vaje_02.Naloga132_For(seznam2);
                                 }
                                 break;
                             case Vaje_02_Naloge.Naloga135:
