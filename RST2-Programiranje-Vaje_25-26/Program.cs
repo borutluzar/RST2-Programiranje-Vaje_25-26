@@ -4,8 +4,10 @@
     {
         enum Sections
         {
-            Vaje_01 = 1, //  2. 10. 2025
-            Vaje_02 = 2, //  6. 10. 2025
+            Vaje_01 = 1, //   2. 10. 2025
+            Vaje_02 = 2, //   6. 10. 2025
+            Vaje_03 = 3, //  13. 10. 2025
+            Vaje_04 = 4, //  23. 10. 2025
         }
 
         static void Main(string[] args)
@@ -106,6 +108,62 @@
                                     Vaje_02.Naloga182(steviloMetov);
                                 }
                                 break;
+                        }
+                    }
+                    break;
+
+                case Sections.Vaje_03:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_03_Naloge>())
+                        {
+                            case Vaje_03_Naloge.Naloga311:
+                            case Vaje_03_Naloge.Naloga312:
+                                {
+                                    Vaje_03.Naloga311_312();
+                                }
+                                break;
+                            case Vaje_03_Naloge.Naloga313:
+                                {
+                                    Vaje_03.Naloga313();
+                                }
+                                break;
+                            case Vaje_03_Naloge.Naloga321:
+                            case Vaje_03_Naloge.Naloga322:
+                            case Vaje_03_Naloge.Naloga323:
+                                {
+                                    Vaje_03.Naloga321_323();
+                                }
+                                break;
+                        }
+                    }
+                    break;
+
+                case Sections.Vaje_04:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_04_Naloge>())
+                        {
+                            /*
+                            case Vaje_04_Naloge.:
+                                {
+
+                                }
+                                break;
+                            */
+                        }
+                    }
+                    break;
+
+                case Sections.Vaje_05:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_05_Naloge>())
+                        {
+                            /*
+                            case Vaje_05_Naloge.:
+                                {
+
+                                }
+                                break;
+                            */
                         }
                     }
                     break;
