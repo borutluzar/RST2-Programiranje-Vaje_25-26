@@ -9,6 +9,7 @@
             Vaje_03 = 3, //  13. 10. 2025
             Vaje_04 = 4, //  23. 10. 2025
             Vaje_05 = 5, //   7. 11. 2025
+            Vaje_06 = 6, //  11. 11. 2025
         }
 
         static void Main(string[] args)
