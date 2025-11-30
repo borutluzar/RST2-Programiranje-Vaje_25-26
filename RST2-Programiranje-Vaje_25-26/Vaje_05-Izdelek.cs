@@ -1,0 +1,28 @@
+﻿namespace RST2_Programiranje_Vaje_25_26
+{
+    public class Izdelek
+    {
+        public string Naziv { get; set; }
+        public string Proizvajalec { get; set; }
+        public decimal Cena { get; set; }
+
+        public Izdelek(string naziv, string proizvajalec, decimal cena)
+        {
+            Proizvajalec = proizvajalec;
+            Naziv = naziv;
+            Cena = cena;
+        }
+
+        public Izdelek()
+        {
+            Proizvajalec = "";
+            Naziv = "";
+            Cena = 0;
+        }
+
+        public override string ToString()
+        {
+            return $"{Naziv} ({Proizvajalec}) - Cena: {Cena} €";
+        }
+    }  
+}

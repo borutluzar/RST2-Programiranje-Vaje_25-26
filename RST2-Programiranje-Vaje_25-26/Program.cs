@@ -10,6 +10,15 @@
             Vaje_04 = 4, //  23. 10. 2025
             Vaje_05 = 5, //   7. 11. 2025
             Vaje_06 = 6, //  11. 11. 2025
+            Vaje_07 = 7, //   1. 12. 2025
+            Vaje_08 = 8, //   8. 12. 2025
+            Vaje_09 = 9, //  15. 12. 2025
+            Vaje_10 = 10, // 18. 12. 2025
+            Vaje_11 = 11, // 20. 12. 2025
+            Vaje_12 = 12, //  5.  1. 2025
+            Vaje_13 = 13, //  7.  1. 2025
+            Vaje_14 = 14, // 12.  1. 2025
+            Vaje_15 = 15, // 14.  1. 2025
         }
 
         static void Main(string[] args)
@@ -166,14 +175,17 @@
                 case Sections.Vaje_05:
                     {
                         switch (InterfaceFunctions.ChooseSection<Vaje_05_Naloge>())
-                        {
-                            /*
-                            case Vaje_05_Naloge.:
+                        {                            
+                            case Vaje_05_Naloge.Naloga345:
                                 {
-
+                                    Vaje_05.Naloga345();
                                 }
                                 break;
-                            */
+                            case Vaje_05_Naloge.Naloga346:
+                                {
+                                    Vaje_05.Naloga346();
+                                }
+                                break;
                         }
                     }
                     break;
