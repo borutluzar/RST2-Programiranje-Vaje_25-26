@@ -1,6 +1,4 @@
-﻿using MyLibrary;
-
-namespace RST2_Programiranje_Vaje_25_26
+﻿namespace RST2_Programiranje_Vaje_25_26
 {
     public enum Vaje_06_Naloge
     {

@@ -70,11 +70,11 @@
                             case Vaje_02_Naloge.Naloga132:
                                 {
                                     // Z zanko foreach
-                                    List<double> seznam1 = new List<double>() { 1, 2, 3, 4, 5, 6 };                                                                       
+                                    List<double> seznam1 = new List<double>() { 1, 2, 3, 4, 5, 6 };
                                     var noviSeznamForeach = Vaje_02.Naloga132_Foreach(seznam1);
 
                                     // Z zanko for
-                                    List<double> seznam2 = new List<double>() { 1, 2, 3, 4, 5, 6 };                                    
+                                    List<double> seznam2 = new List<double>() { 1, 2, 3, 4, 5, 6 };
                                     var noviSeznamFor = Vaje_02.Naloga132_For(seznam2);
                                 }
                                 break;
@@ -110,7 +110,7 @@
                                     string fileIn = "resources/fileIn.txt";
                                     string fileOut = "fileOut.txt";
 
-                                    Vaje_02.Naloga171(fileIn, fileOut);                                    
+                                    Vaje_02.Naloga171(fileIn, fileOut);
                                 }
                                 break;
                             case Vaje_02_Naloge.Naloga182:
@@ -152,7 +152,7 @@
                 case Sections.Vaje_04:
                     {
                         switch (InterfaceFunctions.ChooseSection<Vaje_04_Naloge>())
-                        {                            
+                        {
                             case Vaje_04_Naloge.Naloga331:
                                 {
                                     Vaje_04.Naloga331();
@@ -175,7 +175,7 @@
                 case Sections.Vaje_05:
                     {
                         switch (InterfaceFunctions.ChooseSection<Vaje_05_Naloge>())
-                        {                            
+                        {
                             case Vaje_05_Naloge.Naloga345:
                                 {
                                     Vaje_05.Naloga345();
@@ -193,7 +193,7 @@
                 case Sections.Vaje_06:
                     {
                         switch (InterfaceFunctions.ChooseSection<Vaje_06_Naloge>())
-                        {                            
+                        {
                             case Vaje_06_Naloge.Naloga351:
                                 {
                                     Vaje_06.Naloga_351();
@@ -202,6 +202,31 @@
                             case Vaje_06_Naloge.Naloga354:
                                 {
                                     Vaje_06.Naloga_354();
+                                }
+                                break;
+                        }
+                    }
+                    break;
+
+                case Sections.Vaje_07:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_07_Naloge>())
+                        {
+                            case Vaje_07_Naloge.Naloga361:
+                                {
+                                    Vaje_07.Naloga_361();
+                                }
+                                break;
+
+                            case Vaje_07_Naloge.Naloga365:
+                                {
+                                    Vaje_07.Naloga_365();
+                                }
+                                break;
+
+                            case Vaje_07_Naloge.Naloga371:
+                                {
+                                    Vaje_07.Naloga_371();
                                 }
                                 break;
                         }
