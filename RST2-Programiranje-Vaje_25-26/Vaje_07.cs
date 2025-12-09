@@ -12,7 +12,7 @@
     /// </summary>
     public class Vaje_07
     {
-        public static void Naloga_361()
+        public static void Naloga361()
         {
             Porocilo davki = new Porocilo();
             davki.Naziv = "Letno porocilo davkov";
@@ -31,7 +31,7 @@
             } while (opravljeno);
         }
 
-        public static void Naloga_365()
+        public static void Naloga365()
         {
             Position ana = new Position() { X = 3, Y = 2 };
             Position bojan = new Position() { X = 3, Y = 2 };
@@ -46,7 +46,7 @@
             }
         }
 
-        public static void Naloga_371()
+        public static void Naloga371()
         {
             List<int> seznam = new List<int>() { 13, 1, 3, 4, -1, 19};
             Console.WriteLine(seznam.WriteList());

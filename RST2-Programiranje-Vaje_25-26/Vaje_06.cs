@@ -11,7 +11,7 @@
     /// </summary>
     public class Vaje_06
     {
-        public static void Naloga_351()
+        public static void Naloga351()
         {
             Dress dress = new Dress();
             Shoe shoe = new Shoe();
@@ -22,7 +22,7 @@
             Console.WriteLine(accessory.GetBarcode());
         }
 
-        public static void Naloga_354()
+        public static void Naloga354()
         {
             Square square = new Square(4);
             Circle circle = new Circle(Math.PI);

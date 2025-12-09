@@ -196,12 +196,12 @@
                         {
                             case Vaje_06_Naloge.Naloga351:
                                 {
-                                    Vaje_06.Naloga_351();
+                                    Vaje_06.Naloga351();
                                 }
                                 break;
                             case Vaje_06_Naloge.Naloga354:
                                 {
-                                    Vaje_06.Naloga_354();
+                                    Vaje_06.Naloga354();
                                 }
                                 break;
                         }
@@ -214,19 +214,44 @@
                         {
                             case Vaje_07_Naloge.Naloga361:
                                 {
-                                    Vaje_07.Naloga_361();
+                                    Vaje_07.Naloga361();
                                 }
                                 break;
 
                             case Vaje_07_Naloge.Naloga365:
                                 {
-                                    Vaje_07.Naloga_365();
+                                    Vaje_07.Naloga365();
                                 }
                                 break;
 
                             case Vaje_07_Naloge.Naloga371:
                                 {
-                                    Vaje_07.Naloga_371();
+                                    Vaje_07.Naloga371();
+                                }
+                                break;
+                        }
+                    }
+                    break;
+
+                case Sections.Vaje_08:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_08_Naloge>())
+                        {
+                            case Vaje_08_Naloge.Naloga411:
+                                {
+                                    Vaje_08.Naloga411();
+                                }
+                                break;
+
+                            case Vaje_08_Naloge.Naloga412:
+                                {
+                                    Vaje_08.Naloga412();
+                                }
+                                break;
+
+                            case Vaje_08_Naloge.Naloga423:
+                                {
+                                 Vaje_08.Naloga423();   
                                 }
                                 break;
                         }
