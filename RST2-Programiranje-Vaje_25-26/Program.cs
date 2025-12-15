@@ -257,6 +257,51 @@
                         }
                     }
                     break;
+
+                case Sections.Vaje_09:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_09_Naloge>())
+                        {
+                            case Vaje_09_Naloge.Naloga431:
+                                {
+                                    Vaje_09.Naloga431();
+                                }
+                                break;
+
+                            case Vaje_09_Naloge.Naloga432:
+                                {
+                                    Vaje_09.Naloga432();
+                                }
+                                break;
+
+                            case Vaje_09_Naloge.Naloga433:
+                                {
+                                    Vaje_09.Naloga433();
+                                }
+                                break;
+                            case Vaje_09_Naloge.Naloga434:
+                                {
+                                    Vaje_09.Naloga434();
+                                }
+                                break;
+                            case Vaje_09_Naloge.Naloga435:
+                                {
+                                    Vaje_09.Naloga435();
+                                }
+                                break;
+                            case Vaje_09_Naloge.Naloga436:
+                                {
+                                    Vaje_09.Naloga436();
+                                }
+                                break;
+                            case Vaje_09_Naloge.Naloga438:
+                                {
+                                    Vaje_09.Naloga438();
+                                }
+                                break;
+                        }
+                    }
+                    break;
             }
             Console.Read();
         }

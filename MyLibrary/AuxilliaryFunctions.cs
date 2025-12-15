@@ -1,6 +1,6 @@
 ﻿namespace MyLibrary
 {
-    public class AuxilliaryFunctions
+    public static class AuxilliaryFunctions
     {
         /// <summary>
         /// Za dani števili funkcija vrne njun največji skupni delitelj.
