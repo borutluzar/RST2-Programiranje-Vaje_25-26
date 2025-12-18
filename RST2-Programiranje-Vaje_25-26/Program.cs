@@ -294,6 +294,11 @@
                                     Vaje_09.Naloga436();
                                 }
                                 break;
+                            case Vaje_09_Naloge.Naloga437:
+                                {
+                                    Vaje_09.Naloga437();
+                                }
+                                break;
                             case Vaje_09_Naloge.Naloga438:
                                 {
                                     Vaje_09.Naloga438();

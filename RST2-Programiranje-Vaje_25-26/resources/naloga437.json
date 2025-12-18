@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Janez Novak",
+      "books": [ 101, 102, 103 ]
+    },
+    {
+      "id": 2,
+      "name": "Davor Sternad",
+      "books": [ 104, 105, 101 ]
+    },
+    {
+      "id": 3,
+      "name": "Marko Horvat",
+      "books": [ 106, 107, 102, 104 ]
+    }
+  ]
+}

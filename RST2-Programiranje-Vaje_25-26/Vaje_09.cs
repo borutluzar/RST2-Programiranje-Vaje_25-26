@@ -1,4 +1,6 @@
-﻿namespace RST2_Programiranje_Vaje_25_26
+﻿using Newtonsoft.Json;
+
+namespace RST2_Programiranje_Vaje_25_26
 {
     public enum Vaje_09_Naloge
     {
@@ -84,6 +86,20 @@
             }
         }
 
+        public static void Naloga437()
+        {
+            string json = File.ReadAllText("resources/naloga437.json");
+                        
+            var data = JsonConvert.DeserializeObject<Data>(json);
+
+            var numDifferentBooks = data.Users
+                                .SelectMany(i => i.Books)
+                                .Distinct()
+                                .Count();
+
+            Console.WriteLine($"Število različnih izposojenih knjig: {numDifferentBooks}");
+        }
+
 
         // Podatki za nalogo 4.3.8
         public static List<Material> materials = new List<Material>
@@ -130,6 +146,18 @@
                 Console.WriteLine(item);
             }
         }
+    }
+
+    public class User
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public List<int> Books { get; set; }
+    }
+
+    public class Data
+    {
+        public List<User> Users { get; set; }
     }
 
     public class Material
