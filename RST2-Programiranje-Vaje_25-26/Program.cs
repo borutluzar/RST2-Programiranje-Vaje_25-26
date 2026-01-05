@@ -365,6 +365,24 @@
                         }
                     }
                     break;
+
+                case Sections.Vaje_12:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_12_Naloge>())
+                        {
+                            case Vaje_12_Naloge.Naloga721:
+                                {
+                                    Vaje_12.Naloga721();
+                                }
+                                break;
+                            case Vaje_12_Naloge.Naloga723:
+                                {
+                                    Vaje_12.Naloga723();
+                                }
+                                break;
+                        }
+                    }
+                    break;
             }
             Console.Read();
         }
