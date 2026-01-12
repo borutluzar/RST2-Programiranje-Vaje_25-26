@@ -251,7 +251,7 @@
 
                             case Vaje_08_Naloge.Naloga423:
                                 {
-                                 Vaje_08.Naloga423();   
+                                    Vaje_08.Naloga423();
                                 }
                                 break;
                         }
@@ -396,6 +396,24 @@
                             case Vaje_13_Naloge.Naloga725:
                                 {
                                     Vaje_13.Naloga725();
+                                }
+                                break;
+                        }
+                    }
+                    break;
+
+                case Sections.Vaje_14:
+                    {
+                        switch (InterfaceFunctions.ChooseSection<Vaje_14_Naloge>())
+                        {
+                            case Vaje_14_Naloge.Naloga811:
+                                {
+                                    Vaje_14.Naloga811();
+                                }
+                                break;
+                            case Vaje_14_Naloge.Naloga832:
+                                {
+                                    Vaje_14.Naloga832();
                                 }
                                 break;
                         }
